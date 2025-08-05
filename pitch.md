@@ -157,10 +157,10 @@ graph TD
 
 ```mermaid
 graph TD
-    A[1. Live Your Life] -->|Use phone normally| B[AI learns patterns locally]
-    B -->|Everything encrypted| C[2. Choose Who to Trust]
+    A[Step 1: Live Your Life] -->|Use phone normally| B[AI learns patterns locally]
+    B -->|Everything encrypted| C[Step 2: Choose Who to Trust]
     C -->|Toggle on/off by company| D[See what you're sharing]
-    D -->|Change anytime| E[3. Get Paid]
+    D -->|Change anytime| E[Step 3: Get Paid]
     E -->|Monthly deposits| F[90% to you, 10% to Samsung]
     F -->|Cryptographically signed| G[Auditable records]
     
