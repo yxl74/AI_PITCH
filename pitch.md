@@ -410,5 +410,3 @@ graph TD
 ---
 
 ---
-
-*This document contains confidential and proprietary information of Samsung Electronics Co., Ltd.*
