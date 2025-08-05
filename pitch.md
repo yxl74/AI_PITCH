@@ -64,9 +64,9 @@ graph LR
     D -->|90% Revenue| A
     
     style A fill:#1ba0ff
-    style B fill:#00ff88
+    style B fill:#2d7a2d
     style C fill:#ff8800
-    style D fill:#00ff88
+    style D fill:#2d7a2d
 ```
 
 ### **"Turn every Samsung phone into a personal ATM"**
@@ -165,7 +165,7 @@ graph TD
     F -->|Cryptographically signed| G[Auditable records]
     
     style A fill:#1ba0ff
-    style C fill:#00ff88
+    style C fill:#2d7a2d
     style E fill:#ff8800
 ```
 
@@ -239,7 +239,7 @@ graph LR
     C -->|5 min| D[Amazon App<br/>Purchase]
     D -->|Samsung Tracks| E[Complete Purchase Journey:<br/>30 min, $1,200 value]
     
-    style E fill:#00ff88
+    style E fill:#2d7a2d
 ```
 
 ### ✈️ Vacation Planning
@@ -250,7 +250,7 @@ graph LR
     C -->|15 min| D[Booking.com<br/>Hotel booking]
     D -->|Samsung Knows| E[Travel Planning Pattern:<br/>60 min, $3,000 trip value]
     
-    style E fill:#00ff88
+    style E fill:#2d7a2d
 ```
 
 ### 🏠 Home Improvement
@@ -261,7 +261,7 @@ graph LR
     C -->|10 min| D[Home Depot<br/>Order supplies]
     D -->|Samsung Captures| E[Project Journey:<br/>55 min, $5,000 value]
     
-    style E fill:#00ff88
+    style E fill:#2d7a2d
 ```
 
 ### **What This Means for AI Companies:**
@@ -312,7 +312,7 @@ flowchart TB
     I -->|Purchase Data| F
     
     style A fill:#1ba0ff
-    style E fill:#00ff88
+    style E fill:#2d7a2d
     style H fill:#ff8800
 ```
 
@@ -441,7 +441,7 @@ graph TD
     D --> G
     F --> G
     
-    style G fill:#00ff88
+    style G fill:#2d7a2d
 ```
 
 ### Key Metrics:
