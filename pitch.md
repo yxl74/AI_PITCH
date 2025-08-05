@@ -335,67 +335,10 @@ flowchart TB
 *Device counts are estimates and should be verified with current data  
 **Apple also has 1B+ active devices globally
 
----
-
-## Slide 13: Go-to-Market Strategy
-
-## **Phase 1: Prove | Phase 2: Scale | Phase 3: Dominate**
-
-```mermaid
-timeline
-    title Samsung Personal Data Engine Roadmap
-    
-    Q2 2025 : Korea Pilot
-            : 10,000 users
-            : 5 AI companies
-            : Multi-agent tracking
-            
-    Q4 2025 : Global Launch
-            : 10M users
-            : All major AI players
-            : $200M ARR
-            
-    2027    : AI Intelligence Hub
-            : 100M+ users
-            : Complete AI ecosystem
-            : $2B+ ARR
-```
 
 ---
 
-## Slide 14: The Ask
-
-## **We Need Your Support**
-
-### Resources Required:
-- 💰 **$50M** development budget
-- 👥 **100** engineers (AI, security, distributed systems)
-- 🎯 **CEO** sponsorship for Samsung-wide integration
-- 🤝 **Partnerships** team for AI companies
-
-### Returns:
-- 📈 **$3.5B** revenue by Year 5
-- 🏆 **Market leadership** in AI intelligence
-- 💎 **Premium positioning** for all Samsung devices
-- 🛡️ **Defensive moat** against competitors
-
----
-
-## Slide 15: Live Demo
-
-## **See It In Action**
-
-### Demo Flow:
-1. 💰 Real-time earnings counter: $0.47... $0.48...
-2. 🔄 Toggle "Share with OpenAI" → earnings accelerate
-3. 📊 AI usage dashboard: "ChatGPT 45%, Claude 30%, Gemini 25%"
-4. 🎯 OpenAI dashboard: "Samsung users prefer ChatGPT for coding tasks"
-
-> **"From concept to cash in 3 taps"**
-
----
-
-## Slide 16: The Vision
+## Slide 13: The Vision
 
 ## **A New Economic Model for the Digital Age**
 
