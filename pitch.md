@@ -59,7 +59,7 @@ graph LR
 ```mermaid
 graph LR
     A[User Samsung Phone] -->|Encrypted at Knox Vault| B[User Consent]
-    B -->|Blockchain Verified| C[Data Buyers]
+    B -->|Cryptographically Verified| C[Data Buyers]
     C -->|Payment| D[User Wallet]
     D -->|90% Revenue| A
     
@@ -104,7 +104,7 @@ graph TD
     C -->|Toggle on/off by company| D[See what you're sharing]
     D -->|Change anytime| E[3. Get Paid]
     E -->|Monthly deposits| F[90% to you, 10% to Samsung]
-    F -->|Blockchain verified| G[Transparent records]
+    F -->|Cryptographically signed| G[Auditable records]
     
     style A fill:#1ba0ff
     style C fill:#00ff88
