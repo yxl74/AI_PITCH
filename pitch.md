@@ -136,16 +136,16 @@ graph TD
 ## **Google's Weakness is Samsung's Fortress**
 
 ### Google Android
-- ❌ Software-only control
-- ❌ Must see data to monetize
-- ❌ Users have no choice
-- ❌ No hardware security
+- Software-only control ❌
+- Must see data to monetize ❌
+- Users have no choice ❌
+- No hardware security ❌
 
 ### Samsung Android  
-- ✅ Knox Vault hardware encryption
-- ✅ Data locked at chip level
-- ✅ Users hold the only key
-- ✅ Even Samsung can't access
+- Knox Vault hardware encryption ✅
+- Data locked at chip level ✅
+- Users hold the only key ✅
+- Even Samsung can't access ✅
 
 > **"We're not building an app. We're building a new economic layer for the internet, secured in silicon."**
 
@@ -191,13 +191,13 @@ graph TD
 
 ## **Users Want This. Now.**
 
-- **~70-80%** of users want compensation for their data**
-- **~80%** would consider switching phones for better privacy**
-- **$100-500/year** estimated value users place on their data**
-- **~1B+** Samsung devices globally***
+- **~70-80%** of users want compensation for their data*
+- **~80%** would consider switching phones for better privacy*
+- **$100-500/year** estimated value users place on their data*
+- **~1B+** Samsung devices globally**
 
-**These statistics are directional estimates based on various privacy surveys. Actual Samsung user research recommended.  
-***Samsung reported 1+ billion Galaxy devices in use globally (needs current verification)
+*These statistics are directional estimates based on various privacy surveys. Actual Samsung user research recommended.  
+**Samsung reported 1+ billion Galaxy devices in use globally (needs current verification)
 
 ---
 
@@ -206,10 +206,10 @@ graph TD
 ## **Only Samsung Sees Everything**
 
 ### What AI Companies See:
-- ❌ Only their own usage
-- ❌ No competitive context  
-- ❌ No cross-agent patterns
-- ❌ Limited user journey
+- Only their own usage
+- No competitive context  
+- No cross-agent patterns
+- Limited user journey
 
 ### What Samsung Sees:
 
