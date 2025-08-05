@@ -79,34 +79,36 @@ graph LR
 
 ```mermaid
 graph TD
-    subgraph "What OpenAI Sees"
-        A1[ChatGPT App Opens]
-        A2[User Query]
-        A3[ChatGPT App Closes]
+    subgraph "What Expedia's AI Sees"
+        A1[Travel Assistant Opens]
+        A2[User Books Flight]
+        A3[App Closes]
         A1 --> A2 --> A3
     end
     
-    subgraph "What Claude Sees"
-        B1[Claude App Opens]
-        B2[User Query]
-        B3[Claude App Closes]
+    subgraph "What ChatGPT Sees"
+        B1[ChatGPT Opens]
+        B2[User Asks Question]
+        B3[ChatGPT Closes]
         B1 --> B2 --> B3
     end
     
     subgraph "What ONLY Samsung Sees"
-        C1[9:00 AM - ChatGPT: Code Review]
-        C2[9:15 AM - Switch to Claude: Documentation]
-        C3[9:30 AM - Switch to Perplexity: Research]
-        C4[9:45 AM - Back to ChatGPT: Implementation]
-        C5[10:00 AM - Gmail: Send Results]
+        C1[9:00 AM - ChatGPT: 'Plan 5-day Tokyo trip']
+        C2[9:15 AM - Perplexity: 'Best hotels in Shibuya']
+        C3[9:30 AM - Expedia: Browse flights]
+        C4[9:45 AM - Claude: 'Write vacation request email']
+        C5[10:00 AM - Google Maps: Save Tokyo locations]
+        C6[10:15 AM - Amazon: Order travel accessories]
         
-        C1 --> C2 --> C3 --> C4 --> C5
+        C1 --> C2 --> C3 --> C4 --> C5 --> C6
         
         style C1 fill:#ff6b6b
-        style C2 fill:#4ecdc4
-        style C3 fill:#45b7d1
-        style C4 fill:#ff6b6b
-        style C5 fill:#f7b731
+        style C2 fill:#45b7d1
+        style C3 fill:#f7b731
+        style C4 fill:#4ecdc4
+        style C5 fill:#ea4335
+        style C6 fill:#ff9900
     end
 ```
 
@@ -114,18 +116,18 @@ graph TD
 
 | Data Type | App Level | OS Level (Samsung) | Value to AI Companies |
 |-----------|-----------|-------------------|---------------------|
-| **Task Switching** | ❌ Can't see | ✅ Full visibility | Understand why users leave |
-| **Time Between Apps** | ❌ No data | ✅ Complete timeline | Identify friction points |
-| **Complementary Usage** | ❌ Invisible | ✅ Clear patterns | Discover partnership opportunities |
-| **Workflow Context** | ❌ Fragmented | ✅ End-to-end | Improve user experience |
+| **Purchase Intent** | ❌ Can't see | ✅ Full journey | Know when research becomes buying |
+| **Decision Timeline** | ❌ No data | ✅ Complete path | Understand consideration period |
+| **Competitor Usage** | ❌ Invisible | ✅ Clear patterns | See where users go next |
+| **Task Completion** | ❌ Fragmented | ✅ End-to-end | Track actual outcomes |
 
 ### Real Example:
-**"Samsung discovered that 73% of users switch from ChatGPT to Claude when writing long documents"**
-- ChatGPT can't see this
-- Claude can't see this  
-- **Only Samsung can monetize this insight**
+**"Samsung discovered that 67% of users who ask ChatGPT for product recommendations switch to Claude for detailed comparisons before buying"**
+- ChatGPT doesn't know they lost the sale
+- Claude doesn't know they closed it
+- **Only Samsung can sell this intelligence**
 
-> **"We don't just track apps. We understand AI workflows."**
+> **"We see the entire customer journey, from inspiration to transaction."**
 
 ---
 
@@ -227,40 +229,51 @@ pie title Complete AI Usage Intelligence
 
 ## Slide 11: Multi-Agent Intelligence Examples
 
-## **Real-World Value Creation**
+## **Real-World Consumer Journeys**
 
-### 🛍️ E-commerce Journey
+### 🛍️ Black Friday Shopping
 ```mermaid
 graph LR
-    A[Perplexity<br/>Research] -->|User Switch| B[ChatGPT<br/>Compare]
-    B -->|User Switch| C[Gemini<br/>Track Prices]
-    C -->|Samsung Captures| D[Complete Purchase Intent]
+    A[ChatGPT<br/>'Best TV deals'] -->|15 min| B[Perplexity<br/>Compare specs]
+    B -->|10 min| C[Claude<br/>'Is OLED worth it?']
+    C -->|5 min| D[Amazon App<br/>Purchase]
+    D -->|Samsung Tracks| E[Complete Purchase Journey:<br/>30 min, $1,200 value]
     
-    style D fill:#00ff88
+    style E fill:#00ff88
 ```
 
-### 💼 Work Productivity
+### ✈️ Vacation Planning
 ```mermaid
 graph LR
-    A[Copilot<br/>Coding] -->|Task Switch| B[Claude<br/>Documentation]
-    B -->|Task Switch| C[ChatGPT<br/>Emails]
-    C -->|Samsung Knows| D[Full Workflow Patterns]
+    A[ChatGPT<br/>'Italy in summer'] -->|20 min| B[Claude<br/>'7-day itinerary']
+    B -->|25 min| C[Perplexity<br/>'Restaurant reviews']
+    C -->|15 min| D[Booking.com<br/>Hotel booking]
+    D -->|Samsung Knows| E[Travel Planning Pattern:<br/>60 min, $3,000 trip value]
     
-    style D fill:#00ff88
+    style E fill:#00ff88
 ```
 
-### 🎓 Learning Path
+### 🏠 Home Improvement
 ```mermaid
 graph LR
-    A[ChatGPT<br/>Concepts] -->|Need Calculation| B[Wolfram<br/>Math]
-    B -->|Essay Time| C[Claude<br/>Writing]
-    C -->|Samsung Tracks| D[Education Insights]
+    A[Gemini<br/>'Kitchen ideas'] -->|30 min| B[ChatGPT<br/>'DIY vs contractor']
+    B -->|15 min| C[Claude<br/>'Project timeline']
+    C -->|10 min| D[Home Depot<br/>Order supplies]
+    D -->|Samsung Captures| E[Project Journey:<br/>55 min, $5,000 value]
     
-    style D fill:#00ff88
+    style E fill:#00ff88
 ```
 
-### **Value for AI Companies:** 
-> "Finally understand how users really choose between AI agents"
+### **What This Means for AI Companies:**
+
+| AI Company | What They Learn from Samsung | Business Value |
+|------------|------------------------------|----------------|
+| **ChatGPT** | "Users leave us for detailed comparisons" | Improve depth of responses |
+| **Claude** | "We close 40% of purchases ChatGPT started" | Partner opportunity with OpenAI |
+| **Perplexity** | "Users trust us for research, not decisions" | Expand into recommendations |
+| **All AI Companies** | "Complete competitive landscape" | Strategic product development |
+
+> **"Every AI company is guessing. Samsung knows."**
 
 ---
 
