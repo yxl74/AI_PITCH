@@ -1,85 +1,46 @@
-## Slide 9: The Business Model
-
-## **Simple Math. Big Numbers.**
-
-### How Everyone Makes Money:
-
-```mermaid
-graph LR
-    A[1 User] -->|Shares AI patterns| B[$20/month to User]
-    B -->|Samsung gets 10%| C[$2/month per user]
-    
-    style A fill:#1ba0ff
-    style B fill:#2d7a2d
-    style C fill:#ff8800
-```
-
-### The Revenue Scale:
-
-| Users | User Earnings/Year | Samsung Revenue/Year |
-|-------|-------------------|---------------------|
-| 1 million | $240/year each | $24M |
-| 10 million | $240/year each | $240M |
-| 100 million | $240/year each | $2.4B |
-
-### Why AI Companies Will Pay $20+/month:
-- **Current cost to acquire a user:** $50-200# Samsung Personal Data Engine - Executive Pitch Deck
+# Samsung Personal Data Engine - Executive Pitch Deck
 
 ## Your Data. Your Money. Your Choice.
-
 ### Powered by On-Device AI That Protects Your Privacy
-
-> **Note:** This pitch deck contains both factual market data and hypothetical projections. The $500/year user earning figure is an illustrative target based on market analysis. All financial projections are estimates for planning purposes.
 
 ---
 
 ## Slide 1: Title Slide
 
-# **Your Data. Your Money. Your Choice.**
+# **Samsung Personal Data Engine**
 
-**Samsung Personal Data Engine**
+**Your Data. Your Money. Your Choice.**
 
-*Powered by On-Device AI That Protects Your Privacy*
-
-*Revolutionizing data ownership in the multi-agent AI era*
+*Revolutionizing data ownership in the multi-agent AI era through on-device AI and hardware-secured privacy*
 
 ---
 
-## Slide 2: The $500 Billion Question
+## Slide 2: The Opportunity
 
-### **"What if your Samsung phone could earn you $500 a year without changing how you use it?"**
+### **Transform Every Samsung Device Into a Privacy-Preserving Revenue Generator**
 
-### **"What if it did this while protecting your privacy better than ever before?"**
-
-💰 **$500** per year, per user (target)  
-🔒 **100%** privacy protected by on-device AI  
-📱 1B users × $500 = **$500B potential market**
-
-*Based on estimated data value and usage patterns*
+- **Market Reality:** Data monetization is a $464B+ market dominated by tech giants
+- **User Reality:** Users generate valuable data but receive zero compensation
+- **Technology Shift:** The multi-agent AI era creates unprecedented data value
+- **Samsung's Position:** Unique hardware + software integration enables a new model
 
 ---
 
 ## Slide 3: The Problem
 
-## **Tech Giants Extract. Users Get Nothing. Privacy Dies.**
+## **Current Data Economy: Extraction Without Compensation**
 
-| Company | Annual Data Revenue* | User Payment | User Privacy |
-|---------|-------------------|--------------|--------------|
-| Google | ~$282B (2023 ad revenue) | $0 | ❌ Knows everything |
-| Meta | ~$135B (2023 ad revenue) | $0 | ❌ Tracks everywhere |
-| Amazon | ~$47B (2023 ad revenue) | $0 | ❌ Records all purchases |
-| **Your Data** | **~$464B** | **$0** | **❌ No protection** |
+| Company | Annual Ad Revenue (2023) | User Compensation | Privacy Model |
+|---------|-------------------------|-------------------|---------------|
+| Google | ~$282B | $0 | Centralized collection |
+| Meta | ~$135B | $0 | Cross-platform tracking |
+| Amazon | ~$47B | $0 | Purchase behavior analysis |
 
-*Sources: Company annual reports 2023. Actual data monetization may vary.
-
-```mermaid
-graph LR
-    Users[Users] -->|Data| Tech[Tech Giants]
-    Tech -->|$464B Revenue| Tech
-    Tech -->|$0| Users
-    style Users fill:#ff4444
-    style Tech fill:#1ba0ff
-```
+**Core Issues:**
+- Users have no control over their data
+- Privacy is sacrificed for free services
+- No transparency in data usage
+- Zero economic participation for users
 
 ---
 
@@ -88,498 +49,299 @@ graph LR
 ## **Samsung Personal Data Engine**
 *The World's First Privacy-Preserving Data Marketplace*
 
-```mermaid
-graph LR
-    A[User Samsung Phone] -->|Encrypted at Knox Vault| B[On-Device AI]
-    B -->|PII Removed| C[User Consent]
-    C -->|Cryptographically Verified| D[Data Buyers]
-    D -->|Payment| E[User Wallet]
-    E -->|90% Revenue| A
-    
-    style A fill:#1ba0ff
-    style B fill:#ff6b6b
-    style C fill:#2d7a2d
-    style D fill:#ff8800
-    style E fill:#2d7a2d
-```
+### Core Components:
+1. **Knox Vault Hardware Security** - Data encrypted at chip level
+2. **On-Device AI Processing** - PII removal before any sharing
+3. **User Consent Framework** - Granular control over data sharing
+4. **Transparent Revenue Sharing** - 90% to users, 10% to Samsung
+5. **Cryptographic Verification** - Auditable, tamper-proof records
 
-### **"Turn every Samsung phone into a personal ATM that protects your privacy"**
+### Value Proposition:
+> "Turn every Samsung phone into a personal data asset that generates revenue while protecting privacy"
 
 ---
 
-## Slide 5: Data Only Samsung Can Collect
+## Slide 5: Unique Samsung Advantage
 
-### What Makes This Impossible for Others:
+## **The OS-Level Intelligence Only Samsung Can Capture**
+
+### Cross-Agent Visibility Example:
 
 ```mermaid
 graph TD
-    subgraph "What Expedia's AI Sees"
-        A1[Travel Assistant Opens]
-        A2[User Books Flight]
-        A3[App Closes]
-        A1 --> A2 --> A3
-    end
-    
-    subgraph "What ChatGPT Sees"
-        B1[ChatGPT Opens]
-        B2[User Asks Question]
-        B3[ChatGPT Closes]
-        B1 --> B2 --> B3
-    end
-    
-    subgraph "What ONLY Samsung Sees"
-        C1[9:00 AM - ChatGPT: 'Plan 5-day Tokyo trip']
-        C2[9:15 AM - Perplexity: 'Best hotels in Shibuya']
-        C3[9:30 AM - Expedia: Browse flights]
-        C4[9:45 AM - Claude: 'Write vacation request email']
-        C5[10:00 AM - Google Maps: Save Tokyo locations]
-        C6[10:15 AM - Amazon: Order travel accessories]
-        
-        C1 --> C2 --> C3 --> C4 --> C5 --> C6
-        
-        style C1 fill:#ff6b6b
-        style C2 fill:#45b7d1
-        style C3 fill:#f7b731
-        style C4 fill:#4ecdc4
-        style C5 fill:#ea4335
-        style C6 fill:#ff9900
+    subgraph "Complete Journey Visibility"
+        A[ChatGPT: Initial Research] --> B[Claude: Detailed Analysis]
+        B --> C[Perplexity: Fact Verification]
+        C --> D[Shopping App: Purchase]
     end
 ```
 
-### The Unique Value of OS-Level Intelligence:
+### Competitive Advantages:
 
-| Data Type | App Level | OS Level (Samsung) | Value to AI Companies |
-|-----------|-----------|-------------------|---------------------|
-| **Purchase Intent** | ❌ Can't see | ✅ Full journey | Know when research becomes buying |
-| **Decision Timeline** | ❌ No data | ✅ Complete path | Understand consideration period |
-| **Competitor Usage** | ❌ Invisible | ✅ Clear patterns | See where users go next |
-| **Task Completion** | ❌ Fragmented | ✅ End-to-end | Track actual outcomes |
-
-### Real Example:
-**"Samsung discovered that 67% of users who ask ChatGPT for product recommendations switch to Claude for detailed comparisons before buying"**
-- ChatGPT doesn't know they lost the sale
-- Claude doesn't know they closed it
-- **Only Samsung can sell this intelligence**
-
-**Important:** All personal information (names, locations, specific products) is removed by our on-device AI before any data is tracked.
-
-> **"We see the entire customer journey, from inspiration to transaction."**
+| Capability | Samsung | Individual AI Apps | Google Android |
+|-----------|---------|-------------------|----------------|
+| Cross-app journey tracking | ✅ | ❌ | ✅ |
+| Hardware-level encryption | ✅ | ❌ | ❌ |
+| On-device AI processing | ✅ | ❌ | ❌ |
+| User-controlled data keys | ✅ | ❌ | ❌ |
 
 ---
 
-## Slide 6: The Hardware Moat
+## Slide 6: Technical Architecture
 
-## **Google's Weakness is Samsung's Fortress**
+## **Hardware-Secured, AI-Enhanced Privacy**
 
-### Google Android
-- Software-only control ❌
-- Must see data to monetize ❌
-- Users have no choice ❌
-- No hardware security ❌
+### Security Stack:
+```mermaid
+flowchart TB
+    subgraph "On-Device Processing"
+        A[User Activity] --> B[On-Device LLM]
+        B --> C[PII Removal]
+        C --> D[Pattern Extraction]
+        D --> E[Knox Vault Encryption]
+    end
+    
+    subgraph "User Control"
+        E --> F[User Review Interface]
+        F --> G[Consent Management]
+    end
+    
+    subgraph "Secure Exchange"
+        G --> H[Zero-Knowledge Proofs]
+        H --> I[Data Marketplace]
+        I --> J[Payment Processing]
+    end
+```
 
-### Samsung Android  
-- Knox Vault hardware encryption ✅
-- On-device summarization LLM ✅
-- Data locked at chip level ✅
-- Users hold the only key ✅
-- Even Samsung can't access ✅
-
-> **"We're not building an app. We're building a new economic layer for the internet, secured in silicon with AI that protects you."**
+### Key Technical Features:
+- **Knox Vault TEE** for hardware-level security
+- **On-device summarization LLM** for privacy preservation
+- **Differential privacy** implementation
+- **Cryptographic audit trails**
 
 ---
 
 ## Slide 7: How It Works
 
-## **Simple. Secure. Profitable.**
+## **Three Simple Steps**
 
-```mermaid
-graph TD
-    A[Step 1: Live Your Life] -->|Use phone normally| B[AI learns patterns locally]
-    B -->|Everything encrypted| C[Step 2: Choose Who to Trust]
-    C -->|Toggle on/off by company| D[See what you're sharing]
-    D -->|Change anytime| E[Step 3: Get Paid]
-    E -->|Monthly deposits| F[90% to you, 10% to Samsung]
-    F -->|Cryptographically signed| G[Auditable records]
-    
-    style A fill:#1ba0ff
-    style C fill:#2d7a2d
-    style E fill:#ff8800
+### For Users:
+1. **Use Your Phone Normally** - No behavior change required
+2. **Review & Approve** - See exactly what data is shared (with PII removed)
+3. **Get Paid Monthly** - Direct deposits to your account
+
+### For Data Buyers:
+1. **Access Aggregated Intelligence** - Cross-agent patterns and behaviors
+2. **Receive Verified Data** - Cryptographically authenticated
+3. **Pay for Value** - Direct marketplace pricing
+
+---
+
+## Slide 8: Privacy-First Design
+
+## **On-Device AI Protection**
+
+### The Summarization LLM Process:
+
+**Before Processing:**
+- Full user activity with personal information
+- Specific locations, names, account details
+
+**After On-Device AI:**
+- Behavioral patterns only
+- Categories instead of specifics
+- Aggregated insights without PII
+
+### User Control Panel Example:
+```
+Data Summary for This Month:
+✅ Will Share:
+- AI usage patterns by category
+- General time-of-day preferences
+- App switching sequences
+
+❌ Never Shared:
+- Your name or identity
+- Specific queries or conversations
+- Location data
+- Account information
 ```
 
 ---
 
-## Slide 8: Your Privacy Guardian
+## Slide 9: Business Model
 
-## **On-Device AI That Explains Everything**
+## **Revenue Projections**
 
-### The Summarization LLM - Your Personal Privacy Assistant
+### Conservative Model Assumptions:
+- **Data value per user:** $10-30/month (based on current ad revenue per user)
+- **Revenue share:** 90% to users, 10% to Samsung
+- **Samsung revenue per user:** $1-3/month
 
-```mermaid
-graph TD
-    A[Raw Usage Data<br/>with PII] -->|On-Device LLM| B[Smart Summarization]
-    B --> C[PII Removed]
-    B --> D[Human-Readable Report]
-    B --> E[User Choice]
-    
-    C --> F[What You'll Share:<br/>'User shops for TVs 2x/week']
-    D --> G[Not Shared:<br/>'Your name, address, credit card']
-    E --> H[Report Options:<br/>• Quick Summary<br/>• Detailed Report<br/>• Category View]
-    
-    style B fill:#1ba0ff
-    style F fill:#2d7a2d
-    style G fill:#ff4444
-```
+### Scaling Projections:
 
-### Example Report Users See:
+| Phase | Users | Samsung Monthly Revenue | Annual Revenue |
+|-------|-------|------------------------|----------------|
+| Pilot (Y1) | 100K | $100K-300K | $1.2M-3.6M |
+| Launch (Y2) | 10M | $10M-30M | $120M-360M |
+| Growth (Y3) | 50M | $50M-150M | $600M-1.8B |
+| Scale (Y5) | 200M | $200M-600M | $2.4B-7.2B |
 
-**"Here's what Samsung will share about your AI usage this month:"**
-
-✅ **Will Share:**
-- You use ChatGPT 45% more than average for travel planning
-- You switch to Claude for detailed product comparisons  
-- Your peak AI usage is Tuesday mornings
-- General shopping categories (electronics, home goods)
-
-❌ **Won't Share:**
-- Your actual travel destinations or dates
-- Specific products you researched  
-- Your personal conversations
-- Any names, addresses, or account info
-- Your exact location or identity
-
-**Choose Your Report Detail Level:**
-- 📄 **Quick Summary** - 1 page overview
-- 📊 **Standard Report** - Category breakdown  
-- 📈 **Detailed Analytics** - Full usage patterns
-
-**[Review Full Report] [Approve & Earn $43.20] [Modify Sharing]**
-
-> **"You see everything before it leaves your phone. No surprises. Ever."**
+### Additional Revenue Streams:
+- Premium device sales with enhanced privacy features
+- Enterprise API licenses
+- Aggregated market intelligence products
 
 ---
 
-## Slide 9: The Business Model
+## Slide 10: Multi-Agent AI Intelligence
 
-## **Multiple Revenue Streams**
+## **The Unique Value of Cross-Agent Data**
 
-| Revenue Stream | Year 1 | Year 3 | Year 5 |
-|----------------|--------|--------|--------|
-| Transaction Fees (10%) | $50M | $500M | $2B |
-| Premium Devices | $100M | $300M | $500M |
-| Enterprise Licenses | $20M | $200M | $1B |
-| **Total** | **$170M** | **$1B** | **$3.5B** |
+### What Samsung Uniquely Captures:
 
-*Hypothetical projections based on: 10M users Y1, 100M Y3, 400M Y5 @ $20/user/month average data value*  
-*Actual results will depend on market adoption and data pricing*
+**Purchase Journey Intelligence:**
+- Research phase (which AI used)
+- Comparison phase (switching patterns)
+- Decision phase (final tool used)
+- Transaction completion
 
----
+**Competitive Intelligence for AI Companies:**
+- User retention patterns
+- Task completion rates
+- Switching triggers
+- Complementary usage patterns
 
-## Slide 9: Market Validation
-
-## **Users Want This. Now.**
-
-- **~70-80%** of users want compensation for their data*
-- **~80%** would consider switching phones for better privacy*
-- **$100-500/year** estimated value users place on their data*
-- **~1B+** Samsung devices globally**
-
-*These statistics are directional estimates based on various privacy surveys. Actual Samsung user research recommended.  
-**Samsung reported 1+ billion Galaxy devices in use globally (needs current verification)
+### Value to AI Companies:
+> "Samsung provides the only complete view of the competitive AI landscape"
 
 ---
 
-## Slide 10: The Multi-Agent AI Era
+## Slide 11: Go-to-Market Strategy
 
-## **Only Samsung Sees Everything**
+## **Phased Rollout Plan**
 
-### What AI Companies See:
-- Only their own usage
-- No competitive context  
-- No cross-agent patterns
-- Limited user journey
+### Phase 1: Foundation (Months 1-6)
+- Technical infrastructure development
+- Privacy framework implementation
+- Pilot program in select market
+- Initial AI company partnerships
 
-### What Samsung Sees (with PII removed by on-device AI):
+### Phase 2: Launch (Months 7-12)
+- Public launch in key markets
+- Onboard major AI platforms
+- User education campaign
+- Privacy certification
 
-```mermaid
-pie title Complete AI Usage Intelligence
-    "ChatGPT" : 45
-    "Claude" : 35
-    "Gemini" : 20
-    "Perplexity" : 15
-    "Copilot" : 25
-    "Bixby" : 10
-```
-
-> **"Samsung is the only company that can sell complete AI competitive intelligence"**
+### Phase 3: Scale (Year 2+)
+- Global expansion
+- Full AI ecosystem integration
+- Enterprise offerings
+- Advanced analytics products
 
 ---
 
-## Slide 11: Multi-Agent Intelligence Examples
+## Slide 12: Competitive Positioning
 
-## **Real-World Consumer Journeys**
+## **Samsung's Unique Position**
 
-### 🛍️ Black Friday Shopping
-```mermaid
-graph LR
-    A[ChatGPT<br/>'Best TV deals'] -->|15 min| B[Perplexity<br/>Compare specs]
-    B -->|10 min| C[Claude<br/>'Is OLED worth it?']
-    C -->|5 min| D[Amazon App<br/>Purchase]
-    D -->|Samsung Tracks| E[Complete Purchase Journey:<br/>30 min, $1,200 value]
-    
-    style E fill:#2d7a2d
-```
-
-### ✈️ Vacation Planning
-```mermaid
-graph LR
-    A[ChatGPT<br/>'Italy in summer'] -->|20 min| B[Claude<br/>'7-day itinerary']
-    B -->|25 min| C[Perplexity<br/>'Restaurant reviews']
-    C -->|15 min| D[Booking.com<br/>Hotel booking]
-    D -->|Samsung Knows| E[Travel Planning Pattern:<br/>60 min, $3,000 trip value]
-    
-    style E fill:#2d7a2d
-```
-
-### 🏠 Home Improvement
-```mermaid
-graph LR
-    A[Gemini<br/>'Kitchen ideas'] -->|30 min| B[ChatGPT<br/>'DIY vs contractor']
-    B -->|15 min| C[Claude<br/>'Project timeline']
-    C -->|10 min| D[Home Depot<br/>Order supplies]
-    D -->|Samsung Captures| E[Project Journey:<br/>55 min, $5,000 value]
-    
-    style E fill:#2d7a2d
-```
-
-### **What This Means for AI Companies:**
-
-| AI Company | What They Learn from Samsung | Business Value |
-|------------|------------------------------|----------------|
-| **ChatGPT** | "Users leave us for detailed comparisons" | Improve depth of responses |
-| **Claude** | "We close 40% of purchases ChatGPT started" | Partner opportunity with OpenAI |
-| **Perplexity** | "Users trust us for research, not decisions" | Expand into recommendations |
-| **All AI Companies** | "Complete competitive landscape" | Strategic product development |
-
-> **"Every AI company is guessing. Samsung knows."**
+| Capability | Samsung | Apple | Google | Meta |
+|-----------|---------|-------|--------|------|
+| Hardware control | ✅ | ✅ | ❌ | ❌ |
+| Open ecosystem | ✅ | ❌ | ✅ | ✅ |
+| OS-level access | ✅ | ✅ | ✅ | ❌ |
+| Privacy hardware | ✅ | ✅ | ❌ | ❌ |
+| Multi-platform data | ✅ | ❌ | ✅ | ✅ |
+| **User revenue sharing** | **✅** | **❌** | **❌** | **❌** |
 
 ---
 
-## Slide 11: Technical Architecture
+## Slide 13: Investment Requirements
 
-## **Unbreakable by Design**
+## **Resources Needed**
 
-```mermaid
-flowchart TB
-    subgraph "User Device"
-        A[Knox Vault]
-        B[Hardware Key]
-        C[Encrypted Data]
-        B --> A
-        A --> C
-    end
-    
-    subgraph "Samsung Cloud"
-        D[Verification]
-        E[Audit System]
-        F[Payment System]
-        D --> E
-        E --> F
-    end
-    
-    subgraph "Data Buyers"
-        G[Analytics]
-        H[Aggregated Data]
-        I[Payment]
-        G --> H
-        H --> I
-    end
-    
-    C -->|User Consent| D
-    F -->|90% Revenue| C
-    I -->|Purchase Data| F
-    
-    style A fill:#1ba0ff
-    style E fill:#2d7a2d
-    style H fill:#ff8800
-```
+### Development Phase:
+- **Budget:** $30-50M initial investment
+- **Team:** 80-100 engineers (AI, security, distributed systems)
+- **Timeline:** 12-18 months to market
 
-**Key: Hardware encryption → User consent → Zero-knowledge proof → Payment**
+### Key Milestones:
+- Q1: Technical architecture finalized
+- Q2: On-device AI integration complete
+- Q3: Pilot program launch
+- Q4: Commercial launch preparation
+
+### Expected Returns:
+- Break-even: 18-24 months
+- Target IRR: 40%+
+- Strategic value: Premium positioning for all Samsung devices
 
 ---
 
-## Slide 12: Competitive Advantages
+## Slide 14: Risk Mitigation
 
-## **Why Samsung Wins**
+## **Addressing Key Concerns**
 
-| Feature | Samsung | Apple | Google | Chinese OEMs |
-|---------|---------|-------|--------|--------------|
-| Hardware Control | ✅ | ✅ | ❌ | ✅ |
-| Open Ecosystem | ✅ | ❌ | ✅ | ✅ |
-| User Trust | ✅ | ✅ | ❌ | ❌ |
-| Scale (1B+ devices)* | ✅ | ✅** | ✅ | ❌ |
-| **Data Marketplace Ready** | **✅** | **❌** | **❌** | **❌** |
+### Privacy & Regulatory:
+- **Risk:** Data protection regulations
+- **Mitigation:** On-device processing, user consent, privacy-by-design
 
-*Device counts are estimates and should be verified with current data  
-**Apple also has 1B+ active devices globally
+### Market Adoption:
+- **Risk:** User education required
+- **Mitigation:** Simple UX, clear value proposition, gradual rollout
 
----
+### Technical Complexity:
+- **Risk:** Scalability challenges
+- **Mitigation:** Proven Samsung infrastructure, phased deployment
 
-## Slide 13: Go-to-Market Strategy
-
-## **Phase 1: Prove | Phase 2: Scale | Phase 3: Dominate**
-
-```mermaid
-timeline
-    title Samsung Personal Data Engine Roadmap
-    
-    Q2 2025 : Korea Pilot
-            : 10,000 users
-            : 5 AI companies
-            : Multi-agent tracking
-            
-    Q4 2025 : Global Launch
-            : 10M users
-            : All major AI players
-            : $200M ARR
-            
-    2027    : AI Intelligence Hub
-            : 100M+ users
-            : Complete AI ecosystem
-            : $2B+ ARR
-```
+### Competitive Response:
+- **Risk:** Platform retaliation
+- **Mitigation:** Hardware moat, first-mover advantage, user lock-in
 
 ---
 
-## Slide 14: The Ask
+## Slide 15: The Vision
 
-## **We Need Your Support**
+## **Pioneering the Future of Data Ownership**
 
-### Resources Required:
-- 💰 **$50M** development budget
-- 👥 **100** engineers (AI, security, distributed systems)
-- 🎯 **CEO** sponsorship for Samsung-wide integration
-- 🤝 **Partnerships** team for AI companies
+### Near-term Impact:
+- First company to pay users for their data
+- Industry-leading privacy protection
+- New revenue stream for Samsung
 
-### Returns:
-- 📈 **$3.5B** revenue by Year 5
-- 🏆 **Market leadership** in AI intelligence
-- 💎 **Premium positioning** for all Samsung devices
-- 🛡️ **Defensive moat** against competitors
+### Long-term Transformation:
+- Redefine the data economy
+- Set new privacy standards
+- Create sustainable user value model
 
----
+> **"Samsung doesn't just protect your data. We make it work for you."**
 
-## Slide 15: Live Demo
-
-## **See It In Action**
-
-### Demo Flow:
-1. 💰 Real-time earnings counter: $0.47... $0.48...
-2. 🔄 Toggle "Share with OpenAI" → earnings accelerate
-3. 📊 AI usage dashboard: "ChatGPT 45%, Claude 30%, Gemini 25%"
-4. 🎯 OpenAI dashboard: "Samsung users prefer ChatGPT for coding tasks"
-
-> **"From concept to cash in 3 taps"**
+### Call to Action:
+**Let's build the world's first user-centric data marketplace together.**
 
 ---
 
-## Slide 16: The Vision
+## Appendix: Technical Specifications
 
-## **A New Economic Model for the Digital Age**
+### On-Device AI Requirements:
+- NPU utilization: <10% average
+- Battery impact: <2% daily
+- Storage: ~500MB for models
+- Processing: Real-time capability
 
-> *"Today, data is extracted from us.*  
-> *Tomorrow, data works for us.*  
-> ***Samsung makes tomorrow possible."***
+### Security Architecture:
+- Hardware: Knox Vault TEE
+- Encryption: AES-256 hardware-backed
+- Privacy: Differential privacy (ε = 1.0)
+- Verification: Zero-knowledge proofs
 
-### **One phone. One key. Infinite possibility.**
-
----
-
-## Appendix A: Privacy Technology Details
-
-### On-Device Summarization LLM
-```mermaid
-graph TD
-    A[Raw User Data] -->|On-Device Processing| B[Summarization LLM]
-    B -->|PII Detection| C[Remove Names/IDs/Locations]
-    B -->|Pattern Analysis| D[Extract Behaviors]
-    B -->|Report Generation| E[Human-Readable Summary]
-    C --> F[Clean Data]
-    D --> F
-    E --> G[User Review Screen]
-    F --> H[Ready to Share]
-```
-
-### Privacy Features:
-- **On-Device LLM:** Never leaves your phone
-- **PII Removal:** Names, addresses, credit cards auto-removed
-- **User Reports:** Plain English explanation of what's shared
-- **Report Options:** 
-  - Quick Summary (1 page)
-  - Detailed Report (full breakdown)
-  - Category View (by app type)
-- **Final Control:** Review and modify before sharing
-
-### Technical Requirements:
-- **Processing:** Runs on Samsung NPU (Neural Processing Unit)
-- **Battery Impact:** <2% daily battery usage
-- **Storage:** ~500MB for LLM model
-- **Processing Time:** Real-time summarization
-- **Updates:** Model updates with regular OS updates
-
-### Security Stack:
-- **Hardware:** Knox Vault TEE (Trusted Execution Environment)
-- **Encryption:** AES-256 with hardware-backed keys
-- **Privacy:** Differential privacy with ε = 1.0
-- **Verification:** Zero-knowledge proofs
-- **Audit:** Cryptographically signed tamper-proof logs
+### Data Categories Protected:
+- Personal identifiers (PII)
+- Location information
+- Specific content/queries
+- Financial information
+- Health data
 
 ---
 
-## Appendix B: Financial Projections Detail
-
-### Simple Revenue Model
-
-```mermaid
-graph TD
-    A[Each User] -->|Generates $20/month in data value| B[Data Buyers Pay]
-    B -->|90% to User| C[$18/month to User]
-    B -->|10% to Samsung| D[$2/month to Samsung]
-    
-    D -->|Scale to Millions| E[Massive Revenue]
-    
-    style C fill:#2d7a2d
-    style D fill:#ff8800
-    style E fill:#1ba0ff
-```
-
-### Revenue Projections:
-
-| Milestone | Active Users | Monthly Revenue | Annual Revenue |
-|-----------|--------------|-----------------|----------------|
-| Pilot | 10,000 | $20,000 | $240,000 |
-| Launch | 1 million | $2 million | $24 million |
-| Growth | 10 million | $20 million | $240 million |
-| Scale | 100 million | $200 million | $2.4 billion |
-
-### Key Business Metrics:
-- **User acquisition cost:** ~$5 (organic through device sales)
-- **Revenue per user:** $24/year ($2/month)
-- **Gross margin:** ~95% (minimal processing costs)
-- **Break-even:** 3 months per user
-- **Market size:** 1B+ potential users globally
-
----
-
-## Appendix C: Partnership Pipeline
-
-### Potential Partners (Illustrative):
-- **AI Companies:** Major AI platforms
-- **E-commerce:** Leading online retailers
-- **Social:** Major social platforms
-- **Enterprise:** Cloud and SaaS providers
-
-*Partnership discussions would need to be initiated*
-
----
-
-**Note:** This pitch deck contains 15 slides plus appendices with technical details.
+*Note: All financial projections are estimates based on market analysis and should be validated through pilot programs and user research.*
